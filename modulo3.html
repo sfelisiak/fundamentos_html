@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta autor="Silvana Isabel">
+    <meta description="Curso HTML para iniciantes">
+    <title>Modulo 3</title>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li> <a href="#home">Home </a></li>
+                <li> <a href="index.html">Modulo 1</a></li>
+                <li> <a href="modulo2.html">Modulo 2 </a></li>
+                <li> <a href="modulo3.html">Modulo 3</a></li>
+                <li> <a href="#modulo4">Modulo 4</a></li>
+                <li><a href="#modulo5">Modulo 5</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+
+        <section>
+            <h1> Módulo 3: Formulários no HTML</h1>
+            <h2>Aula 7: Formulários Básicos </h2>
+            <!-- Formulario-->
+            <form>
+<fieldset>
+    <legend> Formulario de inscrição do curso HTML</legend>
+                <!-- nome do usuario-->
+                <label for="name">Name</label>
+
+                <input name="name" type="text" placeholder="Digite seu nome:"> <br>
+
+                <!-- email do usuario-->
+                <label for="email">Email</label>
+
+                <input name="email" type="email" placeholder="Digite seu email:"> <br>
+
+                <!-- telefone do usuario-->
+                <label for="phone">Fone</label>
+
+                <input type="phone" nome="phone"> <br>
+
+                <!-- genero do usuario radio-->
+                <label>Genero</label> <br>
+                <input type="radio" id="feminino" name="genero" value="feminino" required>
+                <label for="feminino">Feminino</label>
+                <input type="radio" id="masculino" name="genero" value="masculino">
+                <label for="masculino">Masculino</label>
+                <input type="radio" id="outros" name="genero" value="outros">
+                <label for="outros">Outros</label>
+                <input type="radio" id="naoinformar" name="genero" value="naoinformar">
+                <label for="naoinformar">Prefiro não informar</label> <br>
+                <!-- perfil do usuario checkbox-->
+
+                <label>Perfil</label> <br>
+
+                <input type="checkbox" nome="perfil" id="aluno" value="aluno">
+                <label for="aluno">Aluno</label>
+
+                <input type="checkbox" nome="perfil" id="professor" value="professor">
+                <label for="professor">Professor</label>
+                <br>
+
+                <!--Eviar arquiivos--> <br>
+                <label>Envie seu curriculo</label>
+                <input type="file">
+
+                <br>
+
+                <!-- Baixar arquivo-->
+
+<label for="dowlold"> Material de apoio</label><br>
+<a href="#"  download="./assets/materialdeapoio.pdf">Baixe material de estudo!</a><br>
+
+                <!--senhas em formulario html-->
+                <label for="senha">Crie ema senha forte</label> <br>
+
+                <input type="password" id="senha" value="senha" required> <br>
+                <button>Salvar senha</button> <br>
+
+
+
+                <!-- comentario do usuario-->
+                <label for="comentario">Comentario</label> <br>
+                <textarea cols="20" rows="4">
+
+                </textarea> <br>
+                <input type="submit" value="Envie seu formulario"><br>
+
+
+
+            </fieldset>
+            </form>
+
+
+        </section>
+
+    </main>
+
+
+    <footer>
+        <p> Todos os direitos reservados &copy; Html</p>
+    </footer>
+
+
+</body>
+
+</html>
